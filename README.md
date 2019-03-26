@@ -1,6 +1,6 @@
 # Box8-Assignment
 
-- cart items passed to order
+- cart items passed to order.
 cart_items = {
         "cart_items": [
           {
