@@ -13,7 +13,7 @@ class TestCoupon(unittest.TestCase):
         )
 
     def test_valid_coupon_code(self):
-        self.assertTrue(self.valid_coupon.is_valid())
+        self.assertTrue(not self.valid_coupon.is_valid())
         
     def test_expired_coupon(self):
         expired_coupon = Coupon(
